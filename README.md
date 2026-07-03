@@ -1,9 +1,3 @@
-<p align="center">
-  <img src="phxit-icon.svg" alt="PHX-IT Phoenix Logo" width="260" />
-</p>
-
-
-
 # About-Me
 Entrepreneur and systems designer creating software, automation, and brand infrastructure. PHX‑IT is my forge for scalable tools and developer environments.
 
@@ -316,3 +310,8 @@ Always improving systems until they work the way they should.
 
 — **Skyler J. Jones**  
 Founder, **PHX‑IT**
+
+<p align="center">
+  <img src="phxit-icon.svg" alt="PHX-IT Phoenix Logo" width="160" />
+</p>
+
