@@ -174,18 +174,18 @@ Everything I create is **modular, extensible, durable, and production-aware**.
 
 ---
 
-# 📊 GitHub Stats (Neon Mode)
+# 📊 GitHub Stats 
 
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=sj-master&show_icons=true&theme=tokyonight&hide_border=true&bg_color=000000&title_color=ff00ff&icon_color=ff00ff" />
+  <img src="https://github-readme-stats.vercel.app/api?username=sj-master&show_icons=true&theme=tokyonight&hide_border=true&bg_color=000000&title_color=ff149f&icon_color=ff149f" />
 </p>
 
 <p align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=sj-master&theme=tokyonight&hide_border=true&background=000000&ring=ff00ff&fire=ff00ff&currStreakLabel=ff00ff" />
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=sj-master&theme=tokyonight&hide_border=true&background=000000&ring=ff149f&fire=ff149f&currStreakLabel=ff149f" />
 </p>
 
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=sj-master&layout=compact&theme=tokyonight&hide_border=true&bg_color=000000&title_color=ff00ff" />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=sj-master&layout=compact&theme=tokyonight&hide_border=true&bg_color=000000&title_color=ff149f" />
 </p>
 
 ---
@@ -193,7 +193,7 @@ Everything I create is **modular, extensible, durable, and production-aware**.
 # 📈 Activity Graph
 
 <p align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=sj-master&theme=tokyo-night&bg_color=000000&color=ff00ff&line=ff00ff&point=ffffff&hide_border=true" />
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=sj-master&theme=tokyo-night&bg_color=000000&color=ff149f&line=ff149f&point=ffffff&hide_border=true" />
 </p>
 
 ---
