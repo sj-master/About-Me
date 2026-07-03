@@ -1,0 +1,94 @@
+<svg width="320" height="320" viewBox="0 0 320 320" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <radialGradient id="badgeGlow" cx="50%" cy="42%" r="60%">
+      <stop offset="0%" stop-color="#FF2DA6" stop-opacity="0.55"/>
+      <stop offset="55%" stop-color="#E85A0E" stop-opacity="0.18"/>
+      <stop offset="100%" stop-color="#0B0B0E" stop-opacity="0"/>
+    </radialGradient>
+
+    <linearGradient id="wingR" x1="0%" y1="30%" x2="100%" y2="70%">
+      <stop offset="0%" stop-color="#FF2DA6"/>
+      <stop offset="55%" stop-color="#C4189A"/>
+      <stop offset="100%" stop-color="#7A22C9"/>
+    </linearGradient>
+    <linearGradient id="wingL" x1="100%" y1="30%" x2="0%" y2="70%">
+      <stop offset="0%" stop-color="#FF2DA6"/>
+      <stop offset="55%" stop-color="#C4189A"/>
+      <stop offset="100%" stop-color="#7A22C9"/>
+    </linearGradient>
+
+    <linearGradient id="bodyFlame" x1="50%" y1="0%" x2="50%" y2="100%">
+      <stop offset="0%" stop-color="#FFC93C"/>
+      <stop offset="45%" stop-color="#FF6A1A"/>
+      <stop offset="100%" stop-color="#E8137E"/>
+    </linearGradient>
+
+    <linearGradient id="tailFlame" x1="50%" y1="0%" x2="50%" y2="100%">
+      <stop offset="0%" stop-color="#FF6A1A"/>
+      <stop offset="100%" stop-color="#FFC93C"/>
+    </linearGradient>
+
+    <filter id="softGlow" x="-60%" y="-60%" width="220%" height="220%">
+      <feGaussianBlur stdDeviation="3.2" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+
+  <g transform="translate(0,20)">
+    <!-- Badge -->
+    <circle cx="160" cy="140" r="128" fill="#0B0B0E"/>
+    <circle cx="160" cy="140" r="128" fill="url(#badgeGlow)"/>
+    <circle cx="160" cy="140" r="126" fill="none" stroke="#FF2DA6" stroke-width="2"/>
+    <circle cx="160" cy="140" r="119" fill="none" stroke="#7A22C9" stroke-width="1" opacity="0.5"/>
+
+    <!-- Right wing -->
+    <g filter="url(#softGlow)">
+      <polygon points="175,105 232,64 190,96"  fill="url(#wingR)"/>
+      <polygon points="177,113 246,92 196,108" fill="url(#wingR)" opacity="0.96"/>
+      <polygon points="178,124 255,120 199,122" fill="url(#wingR)" opacity="0.92"/>
+      <polygon points="176,136 244,150 194,134" fill="url(#wingR)" opacity="0.88"/>
+      <polygon points="172,146 218,176 186,144" fill="url(#wingR)" opacity="0.84"/>
+    </g>
+
+    <!-- Left wing -->
+    <g filter="url(#softGlow)">
+      <polygon points="145,105 88,64 130,96"   fill="url(#wingL)"/>
+      <polygon points="143,113 74,92 124,108" fill="url(#wingL)" opacity="0.96"/>
+      <polygon points="142,124 65,120 121,122" fill="url(#wingL)" opacity="0.92"/>
+      <polygon points="144,136 76,150 126,134" fill="url(#wingL)" opacity="0.88"/>
+      <polygon points="148,146 102,176 134,144" fill="url(#wingL)" opacity="0.84"/>
+    </g>
+
+    <!-- Circuit-trace accent -->
+    <g stroke="#F5F5F7" stroke-width="1.4" fill="none" opacity="0.75" stroke-linecap="round">
+      <path d="M198,100 L218,100 L218,88 L232,88"/>
+      <circle cx="218" cy="100" r="2.2" fill="#F5F5F7" stroke="none"/>
+      <circle cx="232" cy="88" r="2.2" fill="#F5F5F7" stroke="none"/>
+      <path d="M200,118 L222,118 L222,132"/>
+      <circle cx="222" cy="118" r="2.2" fill="#F5F5F7" stroke="none"/>
+    </g>
+
+    <!-- Body -->
+    <polygon points="160,64 178,100 172,150 160,196 148,150 142,100"
+             fill="url(#bodyFlame)" filter="url(#softGlow)"/>
+    <polygon points="160,58 170,78 160,90 150,78" fill="url(#bodyFlame)"/>
+    <polygon points="160,50 168,62 152,62" fill="#FF6A1A"/>
+    <circle cx="160" cy="72" r="3.4" fill="#F5F5F7"/>
+
+    <!-- Tail -->
+    <g filter="url(#softGlow)">
+      <polygon points="148,190 160,196 130,238 138,196" fill="url(#tailFlame)" opacity="0.95"/>
+      <polygon points="160,196 172,190 190,238 160,200" fill="url(#tailFlame)" opacity="0.95"/>
+      <polygon points="154,196 166,196 160,224" fill="#FFC93C"/>
+    </g>
+
+    <!-- Embers -->
+    <polygon points="112,150 116,158 108,158" fill="#FF6A1A" opacity="0.85"/>
+    <polygon points="208,150 212,158 204,158" fill="#FF6A1A" opacity="0.85"/>
+    <polygon points="120,190 123,196 117,196" fill="#FFC93C" opacity="0.8"/>
+    <polygon points="200,190 203,196 197,196" fill="#FFC93C" opacity="0.8"/>
+  </g>
+</svg>
