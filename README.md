@@ -90,9 +90,6 @@ PHX‑IT is my modular digital operating system for builders — a forge for tur
 
 
 
-
----
-
 # 🎨 PHX‑IT Brand Color Standard
 
 <p align="center">
@@ -243,6 +240,63 @@ If it doesn’t move from idea → system → reality, it doesn’t matter.
 💻 GitHub: **sj-master**
 
 ---
+
+# 🔗 Connect • Support • Follow
+
+<p align="center">
+
+  <!-- LinkedIn -->
+  <a href="https://www.linkedin.com/in/skyler-j-engineering/">
+    <img src="https://img.shields.io/badge/LinkedIn-Skyler%20J.%20Jones-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" />
+  </a>
+
+  <!-- NPM -->
+  <a href="https://www.npmjs.com/~sj-master">
+    <img src="https://img.shields.io/badge/NPM-sj--master-CB3837?style=for-the-badge&logo=npm&logoColor=white" />
+  </a>
+
+  <!-- Buy Me a Coffee -->
+  <a href="https://buymeacoffee.com/sj.master">
+    <img src="https://img.shields.io/badge/Buy%20Me%20a%20Coffee-Support%20PHX--IT-FFDD00?style=for-the-badge&logo=buymeacoffee&logoColor=000" />
+  </a>
+
+</p>
+
+---
+# 📍 Contact
+
+📫 Email: **sj.masterservers@gmail.com**  
+📱 Phone: **770‑710‑8906** (text preferred)  
+🔥 Brand: **PHX‑IT / Phoenix ecosystem**  
+🌎 Location: United States  
+💻 GitHub: **sj-master**
+
+---
+
+# 🔗 Connect • Support • Follow
+
+<p align="center">
+
+  <!-- LinkedIn -->
+  <a href="https://www.linkedin.com/in/skyler-j-engineering/">
+    <img src="https://img.shields.io/badge/LinkedIn-Skyler%20J.%20Jones-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" />
+  </a>
+
+  <!-- NPM -->
+  <a href="https://www.npmjs.com/~sj-master">
+    <img src="https://img.shields.io/badge/NPM-sj--master-CB3837?style=for-the-badge&logo=npm&logoColor=white" />
+  </a>
+
+  <!-- Buy Me a Coffee -->
+  <a href="https://buymeacoffee.com/sj.master">
+    <img src="https://img.shields.io/badge/Buy%20Me%20a%20Coffee-Support%20PHX--IT-FFDD00?style=for-the-badge&logo=buymeacoffee&logoColor=000" />
+  </a>
+
+</p>
+
+---
+
+
 
 # 🧬 Closing
 
